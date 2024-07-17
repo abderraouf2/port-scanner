@@ -24,6 +24,6 @@ if ',' in targets:
         for ipAdd in targets.split(','):
          	scan(ipAdd.strip(' '), ports)
 else:
-        print(targets)
+        print(termcolor.colored("Scanning single target", 'green'))
         scan(targets, ports)
 
