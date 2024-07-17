@@ -60,3 +60,8 @@ if ',' in targets:
 else:
     print(termcolor.colored("Scanning single target", 'green'))
     scan(targets, ports)
+```
+
+## Disclamer
+
+This tool is intended for educational purposes only. Always ensure you have permission before scanning any network or device. Unauthorized scanning is illegal and unethical.
